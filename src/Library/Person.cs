@@ -42,7 +42,7 @@ namespace Ucu.Poo.Persons
         {
             get
             {
-                return $"{this.Name}{this.FamilyName}";
+                return $"{this.Name} {this.FamilyName}";
             }
         }
 
@@ -66,7 +66,7 @@ namespace Ucu.Poo.Persons
                     age--;
                 }
 
-                return age;
+                return age * -1;
             }
         }
 
